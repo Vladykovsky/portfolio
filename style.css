@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #F3F3F3;
+    width: 1120px;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 93px;
+}
+
+header h2 {
+    font: 500 50px DM Sans;
+    color: #181717;
+}
+
+header .menu {
+    display: flex;
+    font: 500 22px DM Sans;
+    color: #181717;
+    align-items: center;
+    gap: 30px;
+}
+
+main .info {
+    display: flex;
+    justify-content: space-between;
+}
+
+main .info h1 {
+    font: 500 60px DM Sans;
+    color: #181717;
+    margin-top: 120px;
+}
+
+main .info img {
+    margin-top: 128px;
+}
+
+main .info p {
+    font: 400 32px DM Sans;
+    color: #606060;
+    margin-top: 171px;
+}
+
+main .project-1 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 83px;
+    gap: 124px;
+}
+
+main .project-1 .left-side {
+    width: 356px;
+}
+
+main h3 {
+    font: 500 24px DM Sans;
+    color: #181717;
+}
+
+main .description {
+    font: 400 22px DM Sans;
+    color: #181717;
+    margin-top: 25px;
+}
+
+main .language {
+    font: 400 22px DM Sans;
+    color: #606060;
+    margin-top: 40px;
+}
+
+main .etc {
+    font: 500 22px DM Sans;
+    color: #181717;
+    margin-top: 167px;
+    text-decoration: underline;
+}
+
+main .rectangle {
+    width: 640px;
+    height: 365px;
+    background-color: #606060;
+}
+
+main .project-2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 114px;
+    gap: 124px;
+}
+
+main .project-3 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 114px;
+    margin-bottom: 116px;
+    gap: 124px;
+}
+
+main .line {
+    width: 1120px;
+    margin-top: 106px;
+    border: 1.5px solid #181717
+
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 126;
+    margin-bottom: 116px;
+}
+
+footer h4 {
+    font: 500 22px DM Sans;
+    color: #2429AF;
+}
+
+footer .media {
+    display: flex;
+    font: 500 22px DM Sans;
+    color: #181717;
+    align-items: center;
+    gap: 30px;
+}
