@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #F3F3F3;
+    width: 1120px;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+    color: #181717;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 93px;
+}
+
+header h2 {
+    font: 500 50px DM Sans;
+    color: #181717;
+}
+
+header .menu {
+    display: flex;
+    font: 500 22px DM Sans;
+    color: #181717;
+    align-items: center;
+    gap: 30px;
+}
+
+main h1 {
+    font: 500 60px DM Sans;
+    color: #181717;
+    margin-top: 109px;
+}
+
+main .info {
+    font: 400 22px DM Sans;
+    color: #606060;
+    margin-top: 32px;
+}
+
+main .wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 52px;
+}
+
+.wrapper .input-value {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.wrapper .input-value input {
+    width: 676px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid #C4C4C4;
+    padding-left: 22px;
+    font: 400 15px Inter;
+}
+
+.wrapper .input-value button {
+    width: 162px;
+    height: 42px;
+    background-color: #000000;
+    border-radius: 5px;
+    font: 700 18px DM Sans;
+    color: #F3F3F3;
+    cursor: pointer;
+}
+
+.wrapper .description {
+    display: flex;
+    flex-direction: column;
+    font: 400 22px DM Sans;
+    color: #606060;
+    gap: 20px;
+}
+
+.wrapper .description p {
+    text-align: start;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 102px;
+    margin-bottom: 176px;
+}
+
+footer h4 {
+    font: 500 22px DM Sans;
+    color: #2429AF;
+}
+
+footer .media {
+    display: flex;
+    font: 500 22px DM Sans;
+    color: #181717;
+    align-items: center;
+    gap: 30px;
+}
