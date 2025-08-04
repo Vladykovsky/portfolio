@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #F3F3F3;
+    width: 1120px;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+    color: #181717;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 93px;
+}
+
+header h2 {
+    font: 500 50px DM Sans;
+    color: #181717;
+}
+
+header .menu {
+    display: flex;
+    font: 500 22px DM Sans;
+    color: #181717;
+    align-items: center;
+    gap: 30px;
+}
+
+main .about {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 153px;
+}
+
+main .about .left-side h1 {
+    width: 480px;
+    font: 500 60px DM Sans;
+}
+
+main .about .left-side .description {
+    width: 575px;
+    font: 400 24px DM Sans;
+    color: #606060;
+    margin-top: 47px;
+}
+
+main .about .rectangle {
+    width: 457px;
+    height: 405px;
+    background-color: #606060;
+}
+
+main .human-qualities {
+    display: flex;
+    justify-content: space-between;
+    gap: 63px;
+    width: 623px;
+    margin-top: 68px;
+}
+
+main .human-qualities .skills {
+    display: flex;
+    flex-direction: column;
+    gap: 143px;
+    font: 500 22px DM Sans;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    color: #181717;
+}
+
+main .human-qualities .skills p {
+    width: 124px;
+}
+
+main .human-qualities .abilities {
+    display: flex;
+    flex-direction: column;
+    gap: 86px;
+    font: 400 20px DM Sans;
+    color: #181717;
+}
+
+main .line {
+    width: 1120px;
+    margin-top: 110px;
+    border: 1.5px solid #181717
+}
+
+main .contact {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 71px;
+}
+
+main .contact .wrapper-left {
+    display: flex;
+    justify-content: space-between;
+    gap: 41px;
+    align-items: first baseline;
+}
+
+main .contact .wrapper-left h2 {
+    width: 347px;
+    font: 400 32px DM Sans;
+    color: #181717;
+}
+
+main .contact .wrapper-left img {
+    height: 24px;
+}
+
+main .contact .wrapper-right h2 {
+    width: 347px;
+    font: 400 32px DM Sans;
+    color: #181717;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 135px;
+    margin-bottom: 172px;
+}
+
+footer h4 {
+    font: 500 22px DM Sans;
+    color: #2429AF;
+}
+
+footer .media {
+    display: flex;
+    font: 500 22px DM Sans;
+    color: #181717;
+    align-items: center;
+    gap: 30px;
+}
